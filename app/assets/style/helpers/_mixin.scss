@@ -1,0 +1,8 @@
+//  隱藏 scroll 捲軸
+@mixin hide-scrollbar {
+    white-space: nowrap;
+    overflow-x: scroll;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}

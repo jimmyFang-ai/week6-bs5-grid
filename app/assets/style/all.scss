@@ -6,7 +6,15 @@
 // 通用類別
 @import './helpers/base';
 @import './helpers/utilities';
+@import './helpers/mixin';
+
+//元件
+@import './components/navbar';
 
 
-@import './layout/layout.scss'
+//共同樣式
+@import './layout/layout';
+
+// 分頁
+@import './pages/index';
 
