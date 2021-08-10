@@ -13012,6 +13012,23 @@ a {
   height: 100%;
 }
 
+.header-navbar-menu {
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.header-navbar-menu::-webkit-scrollbar {
+  display: none;
+}
+
+.header-navbar-menu .navbar-link {
+  border-bottom: 1px solid  transparent;
+}
+
+.header-navbar-menu .navbar-link:hover {
+  border-bottom: 1px solid  #E31277;
+}
+
 .nav-badge {
   width: 22px;
   height: 18px;
@@ -13023,6 +13040,12 @@ a {
   background: url(https://i.imgur.com/kZS7NN7.jpg) no-repeat center;
   background-size: cover;
   height: 400px;
+}
+
+.header-banner {
+  height: 480px;
+  background: url(https://i.imgur.com/kJgIrQp.jpg) no-repeat center;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=all.css.map */
