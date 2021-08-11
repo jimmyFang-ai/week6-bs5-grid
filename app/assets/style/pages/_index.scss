@@ -6,8 +6,16 @@
 }
 
 
-//熱門展覽  card 
-.bg-card-color{
-    background: #EFEFEF;
+//live-review-banner
+.live-review-banner {
+    height: 482px;
+    background: url(https://i.imgur.com/a4I6Ikr.png) no-repeat center;
+    background-size: cover;
 }
 
+.live-banner-cover {
+   margin-left: 10px;
+   width: 445px; 
+   height: 482px;
+   background:  rgba(59, 36, 51, 0.8);
+}
