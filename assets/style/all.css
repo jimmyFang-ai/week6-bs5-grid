@@ -13446,4 +13446,15 @@ img {
   background: rgba(59, 36, 51, 0.8);
 }
 
+.design-exhibition {
+  padding: 44px 0;
+}
+
+@media (min-width: 768px) {
+  .design-exhibition {
+    padding-top: 80px;
+    padding-bottom: 52px;
+  }
+}
+
 /*# sourceMappingURL=all.css.map */
